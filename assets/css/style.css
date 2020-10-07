@@ -1,0 +1,19 @@
+.caption { 
+    position: absolute; 
+    top: 90%; 
+    left: 13; 
+    width: 100%; 
+   } 
+   .caption1 { 
+    position: absolute; 
+    top: 10%; 
+    left: 26; 
+    width: 100%; 
+   } 
+   h1{
+    font-family: 'Oswald', sans-serif;
+    font-size:66px;
+   }
+   .navbar{
+    font-family: 'Oswald', sans-serif;
+   }
