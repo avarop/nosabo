@@ -20,8 +20,9 @@
     <link rel="stylesheet" href="./assets/css/style.css">
   
   </head>
-<nav class="navbar navbar-expand-sm navbar-dark bg-warning font-weight-bolder">
-  <a class="navbar-brand mx-5 font-weight-bolder" href="#">ÁLVARO</a>
+  <body> 
+<nav class="navbar fixed-top navbar-expand-sm navbar-dark bg-warning font-weight-bolder">
+  <a class="navbar-brand mx-5 font-weight-bolder" href="#ini">ÁLVARO</a>
   <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
       aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -29,26 +30,24 @@
   <div class="collapse navbar-collapse " id="collapsibleNavId">
     <ul class="navbar-nav  ml-auto  mx-5">
       <li class="nav-item active">
-        <a class="nav-link" href="#">INICIO <span class="sr-only">(current)</span></a>
+        <a  class="nav-link" href="#ini">INICIO <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">MI EXPERIENCIA</a>
+        <a class="nav-link" href="#exp">MI EXPERIENCIA</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">MIS TRABAJOS</a>
+        <a class="nav-link" href="#mt">MIS TRABAJOS</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">CONTACTO</a>
+        <a class="nav-link" href="#con">CONTACTO</a>
       </li>
     </ul>
-    
   </div>
 </nav>  
-<body>
-<section class=" card-img-top ">
-  <div class="row justify-content-center">
+<section id="ini" class="card-img-top ">
+  <div class="row justify-content-center" style="background-color: black;">
     <div class=" align-content-center  "></div>
-      <img height="770" src="./assets/img/bg_hero.png" alt="">
+      <img height="770"  src="./assets/img/bg_hero.png" alt="">
     </div>
     <section class="texto sobre imagen">
       <div class="caption col-12 p-5 text-white-50 align-content-center row justify-content-center text-center"> 
@@ -57,9 +56,9 @@
         <h1>_________<br>ÁLVARO</h1>
       </div> 
     </div>
-    <section class=" mi experiencia arrow text-center my-5 ">
-      <h2 class="text-center font-weight-bold">MI EXPERIENCIA</h2>
-      <div class="  col col-sm-12 col-md-5 col-lg-5 col-xl-5 text-center d-inline-block  ">
+    <section id="exp" class=" mi experiencia arrow text-center my-5 ">
+      <h2  class="text-center font-weight-bold">MI EXPERIENCIA</h2>
+      <div class="  col col-sm-12 col-md-5 col-lg-5 col-xl-5 text-center d-inline-block">
         <div class="card-body text-center">
           <i class="fas fa-university fa-10x text-primary" aria-hidden="true"></i>
           <h5 class="card-title font-weight-bolder"> <br> IEB Guillermo Subercaseaux </h5>
@@ -74,15 +73,14 @@
           </div>
         </div>
         </section>
-
-        <section class="mis trabajos bg-primary ">
+         <section id="mt" class="mis trabajos bg-primary ">
           <h2 class="text-center text-white font-weight-bold p-5">MIS TRABAJOS</h2>
           <section class="row">
             <div class="my-3 col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 ">
               <div class="card  mx-4 my-4">
-                  <img class="img-fluid"src="./assets/img/cuppon.png" class="card-img-top" alt="imag1">
+                  <img src="./assets/img/cuppon.png" class="img-fluid card-img-top" alt="imag1">
                     <div class="card-body">
-                      <p class="card-title">Page Cuppon.cl</p>
+                      <p class="card-title font-weight-bolder">Page Cuppon.cl</p>
                       <div style="font-size: 16px">
                       <p  class=" text-secondary font-weight-lighter mb-0 ">Desarrollo web</p>
                   </div>
@@ -91,9 +89,9 @@
             </div>
             <div class="my-3 col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 ">
               <div class="card  mx-4 my-4">
-                  <img class="img-fluid"src="./assets/img/dmark.png" class="card-img-top" alt="imag1">
+                  <img src="./assets/img/dmark.png" class="card-img-top img-fluid" alt="imag1">
                     <div class="card-body">
-                      <p class="card-title">Seminario Marca</p>
+                      <p class="card-title font-weight-bolder">Seminario Marca</p>
                       <div style="font-size: 16px">
                       <p  class=" text-secondary font-weight-lighter mb-0 ">Orador en Branding Strategies</p>
                   </div>
@@ -102,9 +100,9 @@
             </div>
             <div class="my-3 col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 ">
               <div class="card  mx-4 my-4">
-                  <img class="img-fluid"src="./assets/img/iguana_page.png" class="card-img-top" alt="imag1">
+                  <img src="./assets/img/iguana_page.png" class="card-img-top img-fluid" alt="imag1">
                     <div class="card-body">
-                      <p class="card-title">Iguanas Buin ZOO</p>
+                      <p class="card-title font-weight-bolder">Iguanas Buin ZOO</p>
                       <div style="font-size: 16px">
                       <p  class=" text-secondary font-weight-lighter mb-0 ">Landind page evento</p>
                   </div>
@@ -113,9 +111,9 @@
             </div>
             <div class="my-3 col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 ">
               <div class="card  mx-4 my-4">
-                  <img class="img-fluid"src="./assets/img/meet_coffee.png" class="card-img-top" alt="imag1">
+                  <img src="./assets/img/meet_coffee.png" class="card-img-top img-fluid" alt="imag1">
                     <div class="card-body">
-                      <p class="card-title">CO work Page</p>
+                      <p class="card-title font-weight-bolder">CO work Page</p>
                       <div style="font-size: 16px">
                       <p  class=" text-secondary font-weight-lighter mb-0 ">Desarrollo integral</p>
                   </div>
@@ -124,9 +122,9 @@
             </div>
             <div class="my-3 col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 ">
               <div class="card  mx-4 my-4">
-                  <img class="img-fluid"src="./assets/img/ricomida.png" class="card-img-top" alt="imag1">
+                  <img  src="./assets/img/ricomida.png" class="card-img-top img-fluid" alt="imag1">
                     <div class="card-body">
-                      <p class="card-title">Ricomida.ñami </p>
+                      <p class="card-title font-weight-bolder">Ricomida.ñami </p>
                       <div style="font-size: 16px">
                       <p  class=" text-secondary font-weight-lighter mb-0 ">Desarrollo Web </p>
                   </div>
@@ -135,36 +133,40 @@
             </div>
             <div class="my-3 col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 ">
               <div class="card  mx-4 my-4 ">
-                  <img class="img-fluid"src="./assets/img/suricata.png" class="card-img-top" alt="imag1">
+                  <img src="./assets/img/suricata.png" class="card-img-top img-fluid" alt="imag1">
                     <div class="card-body">
-                      <p class="card-title">Suricata resto bar</p>
+                      <p class="card-title font-weight-bolder">Suricata resto bar</p>
                       <div style="font-size: 16px">
                       <p  class=" text-secondary font-weight-lighter mb-0 ">Desarrollo web</p>
                   </div>
                 </div>
               </div>
             </div>
+          </section>
         </section>
-
-      
-
-    
-  
-   
-      
-    
+      </section>
+    </section> 
+    <div id="con" class=" col-12 p-5 d-block">
+      <h2 class="text-center font-weight-bold">CONTACTO</h2>
+      <iframe src="https://form.typeform.com/to/AAgCNyPv" class="col-12" marginwidth="0" marginheight="0" frameborder="no" scrolling="no" style="height: 480px;"></iframe>
+     </div>
+    <section class="cosito del lado">
+      <a class="typeform-share button" href="https://form.typeform.com/to/AAgCNyPv" data-mode="popover" style="width:88px;height:88px;position:fixed;box-shadow:0px 2px 12px rgba(0, 0, 0, 0.06), 0px 2px 4px rgba(0, 0, 0, 0.08);right:26px;bottom:26px;border-radius:50%;display:flex;align-items:center;justify-content:center;cursor:pointer;background:#fdcf02;overflow:hidden;line-height:0;" target="_blank"> <span class="icon"> <svg width='58' height='58' viewBox='0 0 25 25' fill='none' xmlns='http://www.w3.org/2000/svg' style="margin-top:6px;"> <path d='M21 0H0V9L10.5743 24V16.5H21C22.6567 16.5 24 15.1567 24 13.5V3C24 1.34325 22.6567 0 21 0ZM7.5 9.75C6.672 9.75 6 9.07875 6 8.25C6 7.42125 6.672 6.75 7.5 6.75C8.328 6.75 9 7.42125 9 8.25C9 9.07875 8.328 9.75 7.5 9.75ZM12.75 9.75C11.922 9.75 11.25 9.07875 11.25 8.25C11.25 7.42125 11.922 6.75 12.75 6.75C13.578 6.75 14.25 7.42125 14.25 8.25C14.25 9.07875 13.578 9.75 12.75 9.75ZM18 9.75C17.172 9.75 16.5 9.07875 16.5 8.25C16.5 7.42125 17.172 6.75 18 6.75C18.828 6.75 19.5 7.42125 19.5 8.25C19.5 9.07875 18.828 9.75 18 9.75Z' fill='white' /> </svg> </span> </a> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
+    </section>  
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  </body>
+    <link rel="stylesheet" href=".//assets/js/script.js">
+ 
   <footer class="  col-12 bg-warning  p-5">
               <div class="text-center ">
-                <i class="fab fa-linkedin fa-4x text-white-50 text-center mx-1 "aria-hidden="true"> </i> <a href="http://www.linkedin.com"></a>  
+                <i class="fab fa-linkedin fa-4x text-white-50  text-center mx-1" aria-hidden="true"></i>
                 <i class="fab fa-instagram fa-4x text-white-50  text-center mx-1" aria-hidden="true"></i>
                 <i class="fab fa-facebook fa-4x text-white-50  text-center mx-1" aria-hidden="true"></i>
                 <i class="fab fa-twitter fa-4x text-white-50  text-center mx-1" aria-hidden="true"></i>
               </div>
   </footer>
+</body>
 </html>
