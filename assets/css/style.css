@@ -1,10 +1,9 @@
 .caption { 
-    position: absolute; 
+    position: absolute ; 
     top: 50%; 
     left: 13; 
     width: 100%; 
    } 
-
 .caption1 { 
     position: absolute; 
     top: 10%; 
@@ -15,7 +14,7 @@ h1{
     font-family: 'Oswald', sans-serif;
     font-size:66px;
    }
-   .navbar{
+.navbar{
     font-family: 'Oswald', sans-serif;
    }
 h2{
@@ -24,4 +23,7 @@ h2{
    }
 html {
     scroll-behavior: smooth;
+  }
+  iframe{
+      z-index: -20;
   }
